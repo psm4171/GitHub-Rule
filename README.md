@@ -12,6 +12,12 @@ error: failed to push some refs to '리포지토리 주소' 오류 발생 이유
 
 -> local과 github 저장소가 일치하지 않을 때 나타나는 오류. 
  
-pull -> merge -> push
+원칙은 pull -> merge -> push
 
-: git pull origin master로 원격 저장소에 먼저 pull 해줘야한다.
+따라서 git pull origin master로 원격 저장소에 먼저 pull 해줘야한다.
+
+git push -f origin : 강제로 커밋 이력을 덮어씌우는 방법 
+
+작업한 내용이 많다면 -f 옵션으로 푸시하는 것이 좋겠지만, 작업 내용이 많지 않다면 그냥 pull해서 push를 권장 
+
+

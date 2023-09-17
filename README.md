@@ -1,11 +1,16 @@
 # GitHub-깃허브 연동하는 방법
 
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/psm4171/NHNlog.git
-git push -u origin main --> 오류 발생하면 git push -u origin +main 
+1. git init
+
+2. git add .
+
+3. git commit -m "first commit"
+
+4. git branch -M main
+
+5. git remote add origin https: 레포지토리 주소
+
+6. git push -u origin main --> 오류 발생하면 git push -u origin +main 
 
 ## (추가)깃허브 연동하는 방법 
 

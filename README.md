@@ -1,13 +1,13 @@
-# GitHub-
+# GitHub-깃허브 연동하는 방법
 
 git init
 git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/psm4171/NHNlog.git
-git push -u origin main
+git push -u origin main --> 오류 발생하면 git push -u origin +main 
 
-## VsCode에 깃허브 연동하는 방법 
+## (추가)깃허브 연동하는 방법 
 
 이미 리포지토리가 있을 경우 -> git remote remove origin 로 기존 리포지토리 삭제 
 
@@ -26,5 +26,7 @@ error: failed to push some refs to '리포지토리 주소' 오류 발생 이유
 git push -f origin : 강제로 커밋 이력을 덮어씌우는 방법 
 
 작업한 내용이 많다면 -f 옵션으로 푸시하는 것이 좋겠지만, 작업 내용이 많지 않다면 그냥 pull해서 push를 권장 
+
+
 
 

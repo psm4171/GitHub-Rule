@@ -8,7 +8,7 @@
 
 4. git branch -M main
 
-5. git remote add origin https: 레포지토리 주소
+5. git remote add origin [레포지토리 주소]
 
 6. git push -u origin main --> 오류 발생하면 git push -u origin +main 
 
